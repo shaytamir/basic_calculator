@@ -2,7 +2,7 @@
 #  Basic Calculator
 ```
 Basic Calculator.
-+-*/ operators.
+Addition,substruct,multiplication,divide - operators.
 complinet with an order of operation,
 keeps history with clickble time-travel,
 Js-Vanila project.
