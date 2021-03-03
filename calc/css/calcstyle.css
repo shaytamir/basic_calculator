@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.02em;
+}
+#calculator {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#main_calc_div {
+  margin: 0 auto;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #000;
+  height: 350px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
+    "view view view view"
+    "view view view view"
+    "del del dev mult"
+    "seven eight nine minus"
+    "for five six plus"
+    "one two three eq"
+    "zero point clear eq";
+  gap: 5px;
+}
+#view {
+  grid-area: view;
+  padding: 0 20px;
+  background-color: #9452a5;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#eq {
+  background-color: #409af7;
+}
+#del {
+  background: #f75252;
+}
+#plus,
+#minus,
+#mult,
+#dev {
+  background: #9ef776;
+}
+.keys {
+  background-color: #eee;
+  border: 1px solid #000;
+  font-weight: 400;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#calc_history {
+  display: none;
+  margin: 0 auto;
+  min-height: 100px;
+  width: 300px;
+  border: 1px solid #000;
+  border-top: none;
+}
+#calc_history > h4 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px 0;
+  background-color: #1f1f1f;
+  background-color: #9452a5;
+  color: white;
+}
+#history_ul {
+  margin: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
