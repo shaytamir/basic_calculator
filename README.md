@@ -1,5 +1,7 @@
 
 #  Basic Calculator
+### Live Demo:
+https://shaytamir.github.io/basic_calculator/
 ```
 Basic Calculator.
 Addition,substruct,multiplication,divide - operators.
@@ -7,8 +9,6 @@ complinet with an order of operation,
 keeps history with clickble time-travel,
 Js-Vanila project.
 ```
-### Live Demo:
-https://shaytamir.github.io/basic_calculator/
 
 ## Features
 #### keeps history with clickble time-travel,
